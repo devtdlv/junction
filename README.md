@@ -3,7 +3,7 @@
 Local-first Windows desktop toolkit for scanning folders, organizing files, finding duplicates, and renaming in bulk, with preview-first safety and a SQLite operation journal.
 
 **Stack:** Python 3.13 · PySide6 · SQLite · pytest · Ruff · PyInstaller
-**Status:** Milestone 8 (Windows executable packaging). Windows release package prepared; public release pending.
+**Status:** v0.1.0 released (22 October 2026). Maintenance mode; further work is tracked in the backlog below.
 **Repository:** [github.com/devtdlv/junction](https://github.com/devtdlv/junction)
 
 ## Overview
@@ -52,11 +52,11 @@ Authentic captures from the running PySide6 application (disposable demo files o
 
 ## Windows package (portable ZIP)
 
-Windows release package prepared; public GitHub release pending.
+Junction v0.1.0 is available from the [GitHub Release page](https://github.com/devtdlv/junction/releases/tag/v0.1.0).
 
-When published, users will:
+To install:
 
-1. Download `Junction-v0.1.0-windows-x64.zip`
+1. Download `Junction-v0.1.0-windows-x64.zip` from the release assets
 2. Extract the `Junction` folder
 3. Run `Junction.exe` (keep `_internal` beside it)
 4. Optionally verify the published SHA-256 checksum
@@ -130,10 +130,14 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/USER_GUIDE.md](docs/U
 - Primary testing target is Windows
 - Scanner and Duplicate Finder results are session-only (not journaled)
 
-## Roadmap
+## Backlog
 
-- Public GitHub Release for v0.1.0 after maintainer verification
-- Optional future enhancements: code signing, undo when safe, richer settings, storage insights
+Possible future work, not committed to a version:
+
+- Code signing
+- Undo when safe
+- Richer settings
+- Storage insights
 
 ## License
 

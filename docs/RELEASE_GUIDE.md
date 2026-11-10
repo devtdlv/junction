@@ -1,6 +1,6 @@
 # Junction Release Guide (v0.1.0)
 
-Windows release package prepared; public GitHub release pending user approval.
+**Completed:** v0.1.0 was published on 22 October 2026 ([release page](https://github.com/devtdlv/junction/releases/tag/v0.1.0)). This guide is kept as the reference procedure for future releases.
 
 ## What is produced
 

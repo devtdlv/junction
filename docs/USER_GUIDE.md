@@ -1,12 +1,12 @@
 # Junction User Guide
 
-This guide describes **Milestone 8**: the desktop shell, Folder Scanner, Smart Organizer, Duplicate Finder, Bulk Renamer, read-only Operation History, polished Dashboard, and the portable Windows executable package. Undo and restore are not available.
+This guide describes **Junction v0.1.0**: the desktop shell, Folder Scanner, Smart Organizer, Duplicate Finder, Bulk Renamer, read-only Operation History, polished Dashboard, and the portable Windows executable package. Undo and restore are not available.
 
 ## Starting Junction
 
 ### Packaged Windows build
 
-Windows release package prepared; public release pending. After you extract `Junction-v0.1.0-windows-x64.zip`:
+Download the portable ZIP from the [v0.1.0 GitHub Release](https://github.com/devtdlv/junction/releases/tag/v0.1.0). After you extract `Junction-v0.1.0-windows-x64.zip`:
 
 1. Open the extracted `Junction` folder.
 2. Double-click `Junction.exe`.
